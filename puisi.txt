@@ -1,0 +1,6 @@
+Engkau bahkan bukan lagi variabel bagiku
+Engkau adalah konstanta abadi yang tak tergantikan...
+Bagus, kita sudah berhasil membaca dan mencetak isi file.
+“Tunggu dulu…bagaimana kalau filenya memiliki banyak baris?”
+Gampang:
+kita tinggal menggunakan perulangan untuk mencetaknya.

@@ -1,0 +1,182 @@
+{
+    "token": {
+        "audit_ids": [
+            "OmuDYlFmT1q9egp6EcpGdA"
+        ],
+        "catalog": [
+            {
+                "endpoints": [
+                    {
+                        "id": "c73a3200edc94ded84b1a086285ae4f6",
+                        "interface": "public",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:5000/v3/"
+                    },
+                    {
+                        "id": "c8020e5f32b8497b8b859c2178f1ca93",
+                        "interface": "internal",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:5000/v3/"
+                    },
+                    {
+                        "id": "7436f309572c430a90e9abc6b103911d",
+                        "interface": "admin",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:5000/v3/"
+                    }
+                ],
+                "id": "b0232b8aeac94b74ad9315273a2ef891",
+                "name": "keystone",
+                "type": "identity"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "00aabcd3113143cd94eeff9464079c0f",
+                        "interface": "admin",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:9292"
+                    },
+                    {
+                        "id": "62d81cd8b0e74dabb0f440b41c86c997",
+                        "interface": "internal",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:9292"
+                    },
+                    {
+                        "id": "da0e96742d1745a194b73dc7f6a94eae",
+                        "interface": "public",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:9292"
+                    }
+                ],
+                "id": "258bf919a39a477888385243322f7977",
+                "name": "glance",
+                "type": "image"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "007ab3e5bd2e4265b71a82bfe7afa43b",
+                        "interface": "admin",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:8774/v2.1"
+                    },
+                    {
+                        "id": "fea8c6ed9c264cbd95596b278cc05ac1",
+                        "interface": "internal",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:8774/v2.1"
+                    },
+                    {
+                        "id": "dc38dadfff3e4b32827a2720966ce3c2",
+                        "interface": "public",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:8774/v2.1"
+                    }
+                ],
+                "id": "ce6d66d10c5d48d989f00590e7509811",
+                "name": "nova",
+                "type": "compute"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "01ba64400e4840b69ea6591780346734",
+                        "interface": "admin",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:8778"
+                    },
+                    {
+                        "id": "d46ab607d9fb4325ad2bee16bfeae909",
+                        "interface": "internal",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:8778"
+                    },
+                    {
+                        "id": "7c92ba8de3704da894f075debaef2105",
+                        "interface": "public",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:8778"
+                    }
+                ],
+                "id": "8c7bbb7f0abd4d9f80b2df5fc0a7152c",
+                "name": "placement",
+                "type": "placement"
+            },
+            {
+                "endpoints": [
+                    {
+                        "id": "96584bb145e4447c83daca9183a38a41",
+                        "interface": "admin",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:9696"
+                    },
+                    {
+                        "id": "3de5ad71686040ebb1ef9ffadf3af22e",
+                        "interface": "internal",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:9696"
+                    },
+                    {
+                        "id": "7c830c4c5e784949b9758637786e5fcf",
+                        "interface": "public",
+                        "region": "RegionOne",
+                        "region_id": "RegionOne",
+                        "url": "http://rocky-controller.jcamp.net:9696"
+                    }
+                ],
+                "id": "e7e501ec7bef4094a4b798b9ba004513",
+                "name": "neutron",
+                "type": "network"
+            }
+        ],
+        "expires_at": "2018-10-26T02:37:53.000000Z",
+        "is_domain": false,
+        "issued_at": "2018-10-26T01:37:53.000000Z",
+        "methods": [
+            "password"
+        ],
+        "project": {
+            "domain": {
+                "id": "default",
+                "name": "Default"
+            },
+            "id": "82f25d549c774d1eaf9c0b9b45079e7b",
+            "name": "irvan"
+        },
+        "roles": [
+            {
+                "id": "adc3f57d47234406a0c6440b3bf07827",
+                "name": "member"
+            },
+            {
+                "id": "3c44f416cf1040caac3b6057ccf4dbd0",
+                "name": "reader"
+            }
+        ],
+        "user": {
+            "domain": {
+                "id": "default",
+                "name": "Default"
+            },
+            "id": "11517d688b954c758ddc2219b8b601d5",
+            "name": "irvan",
+            "password_expires_at": null
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{           
+    "ofon": {
+        "password": "ofon",
+        "realm": "ofon.kaio.sri",
+        "role": "superduper",
+        "username": "admin",
+        "devices": [
+            {
+                "number": "021-3971-0000",
+                "password": "rahasia",
+                "username": "resepsionis"
+            },
+            {
+                "number": "021-3971-0001",
+                "password": "rahasia",
+                "username": "support"
+            },
+            {
+                "number": 1234,
+                "password": "rahasia",
+                "username": "dapur"
+            },
+            {
+                "number": 1110,
+                "password": "rahasia",
+                "username": "satpam"
+            }
+        ],
+        "numbers": {
+            "conference": "021-3971-0011",
+            "main": "021-3971-0000",
+            "other": [
+                "021-3971-0001",
+                "021-3971-0002"
+            ]
+        }
+    }
+}

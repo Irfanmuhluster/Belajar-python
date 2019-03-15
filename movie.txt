@@ -1,0 +1,33 @@
+{
+	"title"     : "Gatotkaca",
+	"release"   : 2002,
+	"is_awesome": true,
+	"won_oscar" : false,
+	"actors"    : [
+				{
+					"name"   : "John Smoth",
+					"phone"  : "2131234",
+					"emails" : ["johnsmith@gmail.com", "smithj@gmail.com"],
+					"address": "Klaten"
+				},
+				{
+					"name"   : "John Mail",
+					"phone"  : "21314234",
+					"emails" : ["johnmail@gmail.com", "safr@gmail.com"],
+					"address": "Klaten"
+				}
+		 ],
+	"budget" : null,	
+	"credit" : {
+			"director" 		 : "aAndrew",
+			"write" 		 : "Andrew Nicola",
+			"composer" 		 : "Michaele",
+			"cinematigraphy" : "dcijewfijo"
+	},
+	"support" : {
+			"sponsor"       : "sjo",
+			"production" 	: "iiiaaaa",
+			"keapo" 		: "pokio",
+			"blabla" 		: "oopppppp"
+	}
+}
